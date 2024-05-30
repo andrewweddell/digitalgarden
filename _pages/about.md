@@ -4,17 +4,8 @@ title: About
 permalink: /about
 ---
 
-*This is an about page.*
-
-Feel free to tell the world about what you love! 😍
-
-
-What am I working on? 
-test
-
-Image test: 
-
-![[screenshot.png]]
-
-<img src="{{ site.baseurl }}/assets/screenshot.png"/>
+ 
+Walks in the park...
+ 
+<img src="{{ site.baseurl }}/assets/park1.png"/>
 
