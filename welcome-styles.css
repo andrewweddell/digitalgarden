@@ -1,0 +1,62 @@
+/* welcome-styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the start (left) */
+    align-items: center;
+    padding: 1rem;
+}
+
+.icon {
+    margin-right: 2rem;  /* Adds space between the icon and the menu */
+}
+
+.icon img {
+    border-radius: 50%;
+}
+
+nav ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul.menu li {
+    margin: 0 1rem;
+}
+
+nav ul.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul.menu li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+main h1 {
+    font-size: 2.5rem;
+}
+
+main p {
+    font-size: 1.25rem;
+    color: #666;
+}

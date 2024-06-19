@@ -11,8 +11,6 @@ permalink: /
   Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
 </p>
 
- 
-
 <strong>Recently updated notes</strong>
 
 <ul>
