@@ -5,51 +5,53 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
-header {
-    width: 100%;
-    background-color: #333;
-    color: white;
+.container {
     display: flex;
-    justify-content: flex-start; /* Aligns items to the start (left) */
-    align-items: center;
-    padding: 1rem;
+    width: 100%;
+    min-height: 100vh;
 }
 
-.icon {
-    margin-right: 2rem;  /* Adds space between the icon and the menu */
+.sidebar {
+    background-color: #ffffff;
+    color: rgb(43, 38, 38);
+    padding: 2rem;
+    width: 250px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .icon img {
     border-radius: 50%;
+    margin-bottom: 2rem;
 }
 
 nav ul.menu {
     list-style-type: none;
-    margin: 0;
     padding: 0;
-    display: flex;
 }
 
 nav ul.menu li {
-    margin: 0 1rem;
+    margin: 1rem 0;
 }
 
 nav ul.menu li a {
-    color: white;
+    color: rgb(31, 27, 27);
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 nav ul.menu li a:hover {
     text-decoration: underline;
 }
 
-main {
-    text-align: center;
-    margin-top: 2rem;
+.content {
+    flex-grow: 1;
+    padding: 2rem;
 }
 
 main h1 {
